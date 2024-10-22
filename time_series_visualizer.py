@@ -22,7 +22,7 @@ def draw_line_plot():
     ax.set_ylabel("Page Views")
     ax.set_xticks(df.date[::90*3])
 
-    ax.set_title(f"Daily freeCodeCamp Forum Page Views {df.date.min()} - {df.date.max()}")
+    ax.set_title("Daily freeCodeCamp Forum Page Views 5/2016-12/2019")
 
     # Save image and return fig (don't change this part)
     fig.savefig('line_plot.png')
